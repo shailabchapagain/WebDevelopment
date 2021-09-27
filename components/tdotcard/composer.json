@@ -1,0 +1,28 @@
+{
+    "name": "tdot/yii2-categorycard",
+    "description": "Creates a category simple card layout.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," category"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tdot",
+            "email": "tdotacademy44@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\components\\tdotcard\\": ""
+        }
+    },
+
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://path.to/your/repo"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+.course-background{
+
+    min-height: 40vh !important;
+    background-size: cover;
+}
+
+@media (min-width: 490px) {
+    .course-background{
+        height: 40vh;
+    }
+}
+
+.filter-back{
+    background-color: #eeeff1;
+}
+
+.btn-filter{
+    background-color: white;
+    border-color: #253b6e;
+    border-width: 1px;
+    color: #1891ac;
+    box-sizing: border-box;
+}
+
+.btn-filter:hover{
+    background-color: #eeeeee;
+    color: #253b6e;
+}
+.btn-filter:focus{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.filter-dropdown{
+    color: #1f5f8b;
+}
+
+.filter-dropdown:hover{
+    background-color: #eeeff1;
+}
+
+.course-image{
+   object-fit: cover;
+    width: 100%;
+
+}
+
+.course-shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+}
+
+.course-shadow:hover{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+
+}
+#pagination li {
+    color: black;
+    float: left;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+#pagination li.disabled {
+    visibility: hidden;
+}
+
+#pagination li.active {
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+}
+
+#pagination li:hover:not(.active)
+{background-color: #ddd;}
+
+#pagination li a {
+    color: black;
+
+}
+#pagination li.active a {
+    color: white;
+
+}
+
+#course-sorter li a{
+    color: black !important;
+    margin: 6px 15px;
+    text-align: center;
+}
+#course-sorter li {
+    margin: 10px 0px;
+}
+
+#sortButton{
+    font-weight: 600;
+}
+
+
+

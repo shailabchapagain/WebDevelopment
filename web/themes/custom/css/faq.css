@@ -1,0 +1,19 @@
+
+
+.card{
+    border: none;
+    border-bottom: 10px;
+    border: #1c7430;
+    padding-bottom: 2%;
+
+}
+
+.style{
+    padding-top: 8%;
+}
+
+.no-border{
+    border: none;
+
+}
+

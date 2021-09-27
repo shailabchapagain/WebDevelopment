@@ -1,0 +1,51 @@
+.contact-background{
+    background-image: url('../images/contact/contactus-header.jpg');
+    height: 40vh;
+}
+
+#contact-form{
+    width: 100%;
+    background-color: white !important;
+}
+
+
+.contact-form input{
+    border: 0px !important;
+    border-bottom: 1px solid #aaa !important;
+    border-radius: 0px;
+    outline: none;
+    background: none;
+}
+.contact-form textarea, .contact-form select{
+    outline: none;
+    background: none;
+}
+
+
+.contact-form input:-webkit-autofill, .contact-form textarea:-webkit-autofill, .contact-form select:-webkit-autofill{
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -moz-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+.contact-form input:focus{
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-bottom-width: 2px !important;
+    border-bottom-style: outset !important;
+    border-bottom-color: #1f5f8b !important;
+}
+.contact-form textarea:focus, .contact-form select:focus {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-width: 2px !important;
+    border-style: outset !important;
+    border-color: #1f5f8b !important;
+}
+@media (max-width: 990px){
+    .pt-smaller-990{
+        padding-top: 3em;
+    }
+}

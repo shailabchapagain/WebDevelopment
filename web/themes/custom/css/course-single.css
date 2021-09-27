@@ -1,0 +1,158 @@
+.course-description{
+    color: #d2ecf9
+}
+
+
+#course-single-header-image{
+    max-height: 200px ;
+    width: 95%;
+    padding-left: 5%;
+}
+
+
+#enroll-now{
+    color: #eee !important;
+}
+
+#enroll-now:hover{
+    color: #ddd !important;
+}
+
+#course-single-tabs .nav-pills{
+    background-color: transparent !important;
+}
+
+
+/* With arrow tabs */
+
+.with-arrow .nav-link.active {
+    position: relative;
+}
+
+.with-arrow .nav-link.active::after {
+    content: '';
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #2b90d9;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+/* lined tabs */
+
+.lined .nav-link {
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link:hover {
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link.active {
+    background: none;
+    color: #555;
+    border-color: #2b90d9;
+}
+
+.single-course-heading{
+    padding: 25px 0 5px;
+    font-family: Georgia, serif;
+}
+
+.sidebar-right .widget{
+    margin-bottom: 30px;
+    border: 1px solid #f2f0f0;
+}
+.sidebar-right .widget .widget-title {
+    border-bottom: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+    padding: 15px 30px 0;
+    background: #fafafa;
+    color: #333;
+}
+.sidebar-right .widget .content{
+    padding: 27px 30px 21px 30px;
+    background: #fff;
+}
+
+
+.sidebar-right .widget-features .features li{
+    padding-bottom: 12px;
+    margin-top: 1px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #f1f1f1;
+    list-style-type: none;
+}
+
+.sidebar-right .widget-features .features i{
+    color: #1891ac;
+}
+.sidebar-right .widget-features .average-rating i{
+    color: #1891ac;
+}
+
+.right{
+    min-width: 69px;
+    float: right;
+    color: #7a7a7a;
+    font-size: 17px;
+}
+
+#lessonAccordion .card{
+    border: 0px;
+    background-color: white;
+    text-decoration: none !important;
+}
+
+.price-tag{
+    display: inline !important;
+}
+
+
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    padding: 20px
+}
+
+.star-rating input[type=radio] {
+    display: none
+}
+
+.star-rating label {
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type=radio]:checked ~ label {
+    color: #4191AB;
+}
+
+.post-user-rating h4{
+    display: inline;
+    color: #253b6e;
+}
+
+.user-rating i{
+    color:#4191ab;
+}
+
+.btn-success:hover .btn-success{
+    text-decoration: none;
+
+}
+
+
